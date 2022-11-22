@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     padding-top: 0px;
 }
 
@@ -29,7 +29,7 @@ body {
 
 .links {
     font-size: 18px;
-    color: #e4e6eb;
+    color: #cccfd7;
 }
 
 ul{
@@ -59,20 +59,21 @@ li *{
 }
 
 .sub-text {
-    font-size: 18px;
-    color: #e4e6eb;
+    font-size: 20px;
+    color: #a0a1a5;
 }
 
 button {
     background-color: #3882f6;
     color: white;
-    border-radius: 15%;
-    width: 25%;
-    height: 20%;
-    outline: #3882f6;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #3882f6;
+    border-style: solid;
     margin-top: 10px;
     font-weight: bold;
     font-size: large;
+    padding: 8px 30px;
 }
 
 .second-section {
@@ -95,12 +96,13 @@ button {
 .images {
     display: flex;
     justify-content: space-around;
-    gap: 10px;
-
+    font-size: 18px;
 }
 
 .container {
     text-align: center;
+    color: #68696c;
+    max-width: 170px;
 }
 
 .third-section {
@@ -120,6 +122,8 @@ button {
 .author {
     text-align: right;
     font-weight: bold;
+    font-size: 20px;
+    color: #1F2937;
 }
 
 .fourth-section {
@@ -130,14 +134,16 @@ button {
     padding: 50px;
     padding-left: 80px;
     padding-right: 80px;
-    border-radius: 3%;
+    border-radius: 5px;
     margin-top: 75px;
     margin-bottom: 75px;
+    align-items: center;
 }
 
 .call {
     color: white;
     font-weight: bold;
+    font-size: 22px;
 }
 
 .call-sub {
@@ -146,10 +152,12 @@ button {
 }
 
 .fourth-section button {
-    border-width: 3px;
+    border-width: 2px;
     border-color: white;
-    padding: 15px 20px;
+    border-style: solid;
+    padding: 8px 30px;
     font-size: large;
+    border-radius: 5px;
 }
 
 footer {
